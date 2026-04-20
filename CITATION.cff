@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use TEDNet, please cite the related manuscript submitted to The Visual Computer."
+title: "Towards Boundary-Aware Real-Time Semantic Segmentation with Transformer and Detail Enhancement"
+type: article
+authors:
+  - family-names: Wei
+    given-names: Jingjie
+  - family-names: Yuan
+    given-names: Qingni
+  - family-names: Qu
+    given-names: Pengju
+  - family-names: Jia
+    given-names: Wei
+year: 2026
+journal: "The Visual Computer"
+status: submitted
+repository-code: "https://github.com/wjj123a/TEDNet"
+doi: "10.5281/zenodo.20065873"
+abstract: "TEDNet is a dual-resolution real-time semantic segmentation network with Transformer-based context modeling, differential feature guidance, and detail-aware boundary recovery."
+license: Apache-2.0

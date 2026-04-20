@@ -1,0 +1,40 @@
+{
+  "title": "TEDNet: Boundary-Aware Real-Time Semantic Segmentation Code and Reproducibility Package",
+  "upload_type": "software",
+  "description": "Official code, configuration files, and reproducibility instructions for the manuscript 'Towards Boundary-Aware Real-Time Semantic Segmentation with Transformer and Detail Enhancement' submitted to The Visual Computer.",
+  "creators": [
+    {
+      "name": "Wei, Jingjie"
+    },
+    {
+      "name": "Yuan, Qingni"
+    },
+    {
+      "name": "Qu, Pengju"
+    },
+    {
+      "name": "Jia, Wei"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "semantic segmentation",
+    "real-time segmentation",
+    "boundary-aware segmentation",
+    "Transformer",
+    "visual computing",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/wjj123a/TEDNet",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.20065873",
+      "relation": "isIdenticalTo",
+      "resource_type": "software"
+    }
+  ]
+}

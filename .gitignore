@@ -1,0 +1,96 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dll
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local datasets
+data/
+datasets/
+/cityscapes/
+
+# Training / evaluation outputs
+work_dirs/
+checkpoints/
+logs/
+tmp/
+temp/
+outputs/
+runs/
+wandb/
+mlruns/
+.jbeval/
+
+# Model weights and exported artifacts
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+*.trt
+*.pkl
+*.pickle
+
+# Large generated arrays / prediction dumps
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Spreadsheet / table files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.ods
+*.numbers
+
+# Manuscript/editor local files
+*.docx
+~$*.docx
+
+# Local reference papers
+paper/
+papers/
+
+
+
+# OS / editor / assistant local state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
