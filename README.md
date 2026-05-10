@@ -1,7 +1,7 @@
 # TEDNet
 
 This repository contains the official implementation of TEDNet, the method
-described in the manuscript submitted to *The Visual Computer*:
+described in the accompanying manuscript:
 
 **Towards Boundary-Aware Real-Time Semantic Segmentation with Transformer and
 Detail Enhancement**
@@ -10,20 +10,21 @@ TEDNet is a dual-resolution real-time semantic segmentation network that combine
 Transformer-based context encoding with differential feature guidance and
 detail-aware boundary recovery.
 
-Readers who use this code should cite the related manuscript. The archived
-source code and reproducibility package are available through Zenodo at
+Readers who use this code should cite the accompanying manuscript and the
+archived code/reproducibility package as appropriate. The archived package is
+available through Zenodo at
 <https://doi.org/10.5281/zenodo.20065873>.
 
 ## Repository status
 
 - GitHub: <https://github.com/wjj123a/TEDNet>
-- Zenodo DOI: <https://doi.org/10.5281/zenodo.20065873>
+- Zenodo software DOI: <https://doi.org/10.5281/zenodo.20065873>
 - License: Apache-2.0
 - Framework: PyTorch + OpenMMLab MMSegmentation
 
 ## Main results
 
-The revised manuscript reports the following TEDNet results.
+The accompanying manuscript reports the following TEDNet results.
 
 | Dataset | Split | Resolution | mIoU (%) | FPS | GPU | Params |
 | --- | --- | --- | ---: | ---: | --- | ---: |
@@ -38,7 +39,7 @@ published methods, note that some baselines report speed on different GPUs.
 
 ## Installation
 
-Create a fresh environment and install the dependencies used for the revised
+Create a fresh environment and install the dependencies used for the
 manuscript experiments. The reported environment uses Python 3.10.0, PyTorch
 2.7.0+cu128, TorchVision 0.22.0+cu128, CUDA 12.8, cuDNN 9.7.1, MMCV 2.2.0,
 MMEngine 0.10.7, MMSegmentation 1.2.2, NumPy 2.2.6, and OpenCV 4.12.0.
@@ -220,9 +221,19 @@ operator fusion is applied.
 @article{wei2026tednet,
   title = {Towards Boundary-Aware Real-Time Semantic Segmentation with Transformer and Detail Enhancement},
   author = {Wei, Jingjie and Yuan, Qingni and Qu, Pengju and Jia, Wei},
-  journal = {The Visual Computer},
   year = {2026},
-  note = {Manuscript submitted},
+  note = {Manuscript submitted for publication}
+}
+```
+
+For the archived code and reproducibility package, cite:
+
+```bibtex
+@software{wei2026tednetcode,
+  title = {TEDNet: Boundary-Aware Real-Time Semantic Segmentation Code and Reproducibility Package},
+  author = {Wei, Jingjie and Yuan, Qingni and Qu, Pengju and Jia, Wei},
+  year = {2026},
+  publisher = {Zenodo},
   doi = {10.5281/zenodo.20065873}
 }
 ```
